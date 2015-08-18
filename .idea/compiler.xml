@@ -18,31 +18,39 @@
         <processorPath useClasspath="true" />
       </profile>
       <profile default="false" name="Annotation profile for monitor-core" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="monitor-core" />
       </profile>
       <profile default="false" name="Annotation profile for monitor-admin" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="monitor-admin" />
       </profile>
       <profile default="false" name="Annotation profile for monitor-client" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="monitor-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for monitor-entity" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="monitor-entity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="monitor-admin" target="1.6" />
       <module name="monitor-client" target="1.6" />
       <module name="monitor-core" target="1.6" />
+      <module name="monitor-entity" target="1.6" />
       <module name="monitor-parent" target="1.6" />
     </bytecodeTargetLevel>
   </component>

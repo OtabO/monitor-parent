@@ -11,5 +11,11 @@
     <name>${artifactId}v${version}</name>
     <artifactId>monitor-core</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.taobao</groupId>
+            <artifactId>monitor-entity</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

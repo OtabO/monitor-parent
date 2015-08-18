@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/monitor-admin/monitor-admin.iml" filepath="$PROJECT_DIR$/monitor-admin/monitor-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor-client/monitor-client.iml" filepath="$PROJECT_DIR$/monitor-client/monitor-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor-core/monitor-core.iml" filepath="$PROJECT_DIR$/monitor-core/monitor-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-entity/monitor-entity.iml" filepath="$PROJECT_DIR$/monitor-entity/monitor-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor-parent.iml" filepath="$PROJECT_DIR$/monitor-parent.iml" />
     </modules>
   </component>
